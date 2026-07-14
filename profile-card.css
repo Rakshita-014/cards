@@ -1,0 +1,85 @@
+
+.box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+
+}
+.card img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid  skyblue;
+    background-color: aliceblue;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    /* background-blend-mode: overlay; */
+    }
+.card{
+   background-color:rgb(115, 84, 173);
+    height: 350px;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.info{
+    background-color: aliceblue;
+    text-align: center;
+    height: 73%;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.role{
+    margin-bottom: 15px;
+}
+.fa-brands{
+   
+    margin: 10px;
+    padding: 8px;
+    color: wheat;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+
+}
+
+.subs,.mess{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(159, 95, 218);
+    margin-top: 10px;
+
+}
+.fa-solid{
+    font-size: 15px;
+    color: rgb(113, 159, 219);
+    margin: 20px 7px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 250px) {
+    .card{
+        height: fit-content;
+    }
+}
